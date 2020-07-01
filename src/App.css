@@ -1,3 +1,20 @@
 body {
-  background-color: #363349;
+  background-color: #9a1f40;
+}
+
+.main-div {
+  background-color: #9a1f40;
+}
+
+/* SIDE NAVBAR  */
+.sidenav {
+  height: 100%;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  background-color: #b24361;
+  width: 60px;
+}
+
+.menu-container {
+  background-color: #b24361;
 }
