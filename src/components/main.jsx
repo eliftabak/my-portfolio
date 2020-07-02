@@ -1,11 +1,11 @@
 import React from 'react';
-import HomePage from "./homePage/homePage";
+import Sidebar from "./sideNavBar/sidebar";
 import "../App.css"
 
 export default function Main() {
  return (
   <div className="main-div">
-   <HomePage />
+   <Sidebar />
   </div>
  )
 }

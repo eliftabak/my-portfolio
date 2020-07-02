@@ -3,8 +3,13 @@
   padding: 0;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #9a1f40;
+  height: 100%;
 }
 
 .main-div {
@@ -13,7 +18,11 @@ body {
 
 /* SIDE NAVBAR  */
 .sidenav {
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-color: #b24361;
   width: 60px;
 }
@@ -25,5 +34,4 @@ body {
 .menu-item {
   background-color: #b24361;
 }
-
 
