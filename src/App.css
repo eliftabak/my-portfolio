@@ -8,12 +8,11 @@ html {
 }
 
 body {
-  background-color: #9a1f40;
   height: 100%;
-}
+  background: #B3FFAB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-.main-div {
-  background-color: #9a1f40;
 }
 
 /* SIDE NAVBAR  */
@@ -23,15 +22,21 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #b24361;
+  background-color: #fff;
   width: 60px;
 }
 
 .menu-container {
-  background-color: #b24361 !important;
+  background-color: #393D3F !important;
 }
 
 .menu-item {
-  background-color: #b24361;
+  background-color: #393D3F;
+}
+
+/* Home Page  */
+
+.elifText {
+  font-family: 'Clicker Script', cursive;
 }
 

@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
  socialIcon: {
   marginLeft: '18px',
   width: '20px',
-  color: '#f7cdd8',
+  color: '#fff',
  },
 }));
 
