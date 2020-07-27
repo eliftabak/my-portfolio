@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Nunito:wght@300&family=Roboto:wght@100;400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,10 +11,7 @@ html {
 
 body {
   height: 100%;
-  background: #B3FFAB;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #000;
 }
 
 /* SIDE NAVBAR  */
@@ -22,21 +21,37 @@ background: linear-gradient(to left, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Fi
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff;
+  background-color: #1a1a1a;
   width: 60px;
 }
 
+.navigationIconsContainer {
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  margin: 0 auto;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
 .menu-container {
-  background-color: #393D3F !important;
+  background-color: #393d3f !important;
 }
 
 .menu-item {
-  background-color: #393D3F;
+  background-color: #393d3f;
+}
+
+.navigationIconsContainer {
+  text-align: center;
+  
 }
 
 /* Home Page  */
 
 .elifText {
-  font-family: 'Clicker Script', cursive;
+  font-family: 'Domine', serif;
 }
-

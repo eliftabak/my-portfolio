@@ -1,8 +1,8 @@
-import React from 'react';
-import './App.css';
-import Main from "./components/main";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import HomePage from './components/homePage/homePage';
+import React from 'react'
+import Main from './components/Main'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import HomePage from './container/homePage/HomePage'
+import './App.css'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         {/* <Route path="/contact" component={Contact} /> */}
       </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
