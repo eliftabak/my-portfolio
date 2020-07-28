@@ -1,0 +1,46 @@
+.sidenav {
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: #1a1a1a;
+ width: 60px;
+}
+
+.navigationIconsContainer {
+ width: 50%;
+ height: 50%;
+ top: 25%;
+ margin: 0 auto;
+ position: relative;
+}
+
+ul {
+ list-style: none;
+}
+
+ul li {
+ margin-bottom: 10px;
+}
+
+ul li:hover {
+ color: beige;
+ cursor: pointer;
+}
+
+ul li:focus {
+ border-right: #fff 1px solid;
+}
+
+.menu-container {
+ background-color: #393d3f !important;
+}
+
+.menu-item {
+ background-color: #393d3f;
+}
+
+.navigationIconsContainer {
+ align-items: center;
+}

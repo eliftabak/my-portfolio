@@ -3,7 +3,9 @@ import Sidebar from '../../components/sideNavBar/Sidebar'
 import { makeStyles } from '@material-ui/core/styles'
 import { withRouter } from 'react-router-dom'
 import Paper from '@material-ui/core/Paper'
+import BackgroundBlob from '../../components/buble/Buble'
 import '../../App.css'
+import './HomePage.css'
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -16,11 +18,6 @@ const useStyles = makeStyles((theme) => ({
     width: '40%',
     fontFamily: "'Domine', serif",
   },
-  header: {
-    fontFamily: "'Domine', serif",
-    fontSize: '4rem',
-    lineHeight: '1em',
-  },
 }))
 
 function HomePage() {
@@ -30,13 +27,14 @@ function HomePage() {
     <div>
       <Sidebar />
       <Paper elevation={0} className={classes.paper}>
-        <h1 className={classes.header}>I'm Elif</h1>
-        <h3>
+        <h1 className="header">I'm Elif</h1>
+        <h3 class="subText">
           a full-stack web developer based in Istanbul,Turkey. I have a passion
           for web design and love to create new sites. I have a good knowledge
           of ChanginText
         </h3>
       </Paper>
+      <BackgroundBlob />
     </div>
   )
 }

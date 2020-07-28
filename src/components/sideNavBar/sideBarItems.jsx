@@ -11,6 +11,7 @@ import CodeIcon from '@material-ui/icons/Code'
 import AccountCircleIcon from '@material-ui/icons/AccountCircle'
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 import '../../App.css'
+import './Sidebar.css'
 
 const useStyles = makeStyles({
   root: {
@@ -53,9 +54,6 @@ export default function SideBarItems() {
         </li>
         <li>
           <EmailIcon className={classes.navIcons} />
-        </li>
-        <li>
-          <HomeIcon className={classes.navIcons} />
         </li>
       </ul>
     </div>

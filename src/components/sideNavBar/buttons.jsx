@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
       margin: theme.spacing(0),
     },
     backgroundColor: 'transparent',
+    marginTop: '19em',
   },
   socialIcon: {
     marginLeft: '18px',
